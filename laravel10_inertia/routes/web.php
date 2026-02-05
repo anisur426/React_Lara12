@@ -20,6 +20,8 @@ use Inertia\Inertia;
 Route::get('/', [FrontEndController::class,'home']);
 
 Route::get('/about', [FrontEndController::class,'about']);
+Route::get('/product', [FrontEndController::class,'product']);
+Route::get('/product/create', [FrontEndController::class,'product']);
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

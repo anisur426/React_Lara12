@@ -14,4 +14,8 @@ class FrontEndController extends Controller
  public function About(){
     return Inertia:: render('About');
  }
+  public function Product(){
+   $product=DB::
+    return Inertia:: render('product');
+ }
 }
